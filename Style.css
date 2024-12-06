@@ -25,6 +25,7 @@ main {
     color: white;
     text-align: center;
     gap: 4rem;
+    padding: 2rem;
 }
 
 #amor {
@@ -43,7 +44,6 @@ main {
 }
 
 .textos {
-    max-width: 800px;
     text-align: justify;
 }
 
@@ -73,7 +73,7 @@ main {
     gap: 1rem;
 }
 #momentos img {
-    width: 250px;
+    width: 150px;
     border-radius: 3rem;
 }
 
@@ -85,8 +85,18 @@ main {
     margin-bottom: 4rem;
 }
 
+@media screen and (min-width: 768px) {
+    #momentos img {
+        width: 250px;
+    }
+}
+
 @media screen and (min-width: 1037px) {
     #momentos {
         align-items: center;
+    }
+
+    .textos {
+        max-width: 800px;
     }
 }
