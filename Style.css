@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url("/<paraHelenita>/imgs/coracoes.png"), linear-gradient(#272727, black);
+    background-image: url("imgs/coracoes.png"), linear-gradient(#272727, black);
     background-position: center center;
     background-repeat: repeat;
     background-size: cover;
