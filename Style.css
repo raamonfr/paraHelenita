@@ -23,7 +23,6 @@ main {
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 0px 8rem;
     text-align: center;
     gap: 4rem;
 }
@@ -83,7 +82,7 @@ main {
 }
 
 #span1 {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 @media screen and (min-width: 1037px) {
